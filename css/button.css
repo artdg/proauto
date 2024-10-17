@@ -1,0 +1,12 @@
+#call-btn {
+    text-decoration: none;
+    border: 4px solid #D42E12;
+    background-color: transparent;
+    color: #fff;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15.1px;
+    text-align: center;
+    margin-right: 23px;
+}

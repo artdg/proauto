@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, p, img, body, ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    max-width: 1640px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(/images/shapka.png);
+    height: 720px;
+}
+
+.header-nav {
+    display: flex;
+    font-family: "Geometria";
+    color: #fff;
+    justify-content: space-around;
+}
+
+#logo {
+    margin-top: 24px;
+}
+
+#call-btn, #lupa, #basket {
+    margin-top: 42px;
+}
+
+#lupa {
+    margin-right: 12px;
+}
+
+.inner-header-nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0px 23px;
+    margin-top: 42px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.nav-item:first-child {
+    margin-left: 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.13px;
+    text-align: center;
+}
+
+.header-main {
+
+}
