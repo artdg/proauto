@@ -12,6 +12,7 @@ body {
     max-width: 1640px;
     height: 100vh;
     margin: 0 auto;
+    font-family: "Geometria";
 }
 
 header {
@@ -21,7 +22,6 @@ header {
 
 .header-nav {
     display: flex;
-    font-family: "Geometria";
     color: #fff;
     justify-content: space-around;
 }
@@ -68,6 +68,22 @@ header {
     text-align: center;
 }
 
-.header-main {
+.header-main-text {
+    margin-top: 155px;
+    margin-left: 256px;
+    color: #fff;
+    width: 586px;
+    height: 172px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60.38px;
+}
 
+.header-main-link {
+    margin-top: 52px;
+    margin-left: 256px;
+    border: 4px solid #D42E12;
+    width: 216px;
+    text-align: center;
+    padding: 18px 20px;
 }

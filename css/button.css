@@ -1,4 +1,5 @@
-#call-btn {
+#btn-call {
+    margin-top: 42px;
     text-decoration: none;
     border: 4px solid #D42E12;
     background-color: transparent;
@@ -9,4 +10,13 @@
     line-height: 15.1px;
     text-align: center;
     margin-right: 23px;
+}
+
+#btn-catalog {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.61px;
+    text-align: center;
 }
